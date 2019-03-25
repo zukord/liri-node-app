@@ -28,7 +28,6 @@ if (commandList[command]) {
 function spotifyThisSong(song) {
 
     if(song.length === 0){
-        console.log("triggered")
         spotify
             .search({
                 type: 'track',
