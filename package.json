@@ -1,0 +1,30 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zukord/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zukord/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/zukord/liri-node-app#readme",
+  "dependencies": {
+    "@datafire/bandsintown": "^3.0.0",
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.0.7",
+    "omdbapi": "^3.0.0"
+  }
+}
