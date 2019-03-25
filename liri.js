@@ -107,7 +107,8 @@ function random(){
     fs.readFile('random.txt', 'utf8', (err, data) => {
         if (err) throw err;
         var dataArr = data.split(",")
-        console.log(dataArr)
-
+        command = dataArr[0];
+        argument = dataArr[1];
+        commandList[command](argument)
     })
 }
